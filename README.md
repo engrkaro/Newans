@@ -27,3 +27,4 @@ app.post('/', function(req, res){
 });
 
 app.listen(8080, '127.0.0.1');
+exec("ansible-pull -U git@github.com:<engrkaro>/<Newans>.git <newansplaybook>.yml")
